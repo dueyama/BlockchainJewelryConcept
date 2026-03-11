@@ -345,6 +345,7 @@
       allItems: [],
       visibleCount: 0,
       pageSize: 9,
+      collectionName: "Spiral Manifold",
     };
 
     function formatUtcRange(item) {
@@ -454,7 +455,7 @@
         body.className = "work-body";
 
         const title = document.createElement("h3");
-        title.textContent = `${item.base_name || "Spiral Manifold"} · ${chunk.start_block ?? "?"}-${chunk.end_block ?? "?"}`;
+        title.textContent = worksState.collectionName || "Spiral Manifold";
         body.appendChild(title);
 
         const tags = document.createElement("div");
@@ -473,6 +474,14 @@
 
         const meta = document.createElement("div");
         meta.className = "meta-list";
+        const rangeRow = document.createElement("div");
+        rangeRow.textContent = `Range ${chunk.start_block ?? "?"}-${chunk.end_block ?? "?"}`;
+        meta.appendChild(rangeRow);
+        if (item.base_name) {
+          const idRow = document.createElement("div");
+          idRow.textContent = item.base_name;
+          meta.appendChild(idRow);
+        }
         const time = formatUtcRange(item);
         if (time) {
           const timeRow = document.createElement("div");
@@ -527,6 +536,7 @@
         throw new Error("Could not load /nft/collection.json");
       }
       const payload = await response.json();
+      worksState.collectionName = String(payload.collection?.name || "Spiral Manifold");
       worksState.allItems = Array.isArray(payload.items) ? payload.items : [];
       worksState.visibleCount = worksState.pageSize;
       renderWorks(filteredItems());
