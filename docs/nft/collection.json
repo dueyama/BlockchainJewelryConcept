@@ -9,6 +9,65 @@
   },
   "items": [
     {
+      "base_name": "SM_Ethereum_0_999",
+      "unique_token_key": "SM_Ethereum_0_999",
+      "dataset": "SM_Ethereum_0_999",
+      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_0_999",
+      "generated_at_utc": "2026-03-11T05:37:27.740396+00:00",
+      "chunk": {
+        "start_block": 0,
+        "end_block": 999,
+        "count": 1000
+      },
+      "time_range_utc": {
+        "start": "2015-07-30T15:26:13+00:00",
+        "end": "2015-07-30T16:02:17+00:00"
+      },
+      "public_urls": {
+        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_0_999",
+        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_0_999/still.jpg",
+        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_0_999/model.glb",
+        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_0_999/index.html",
+        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_0_999/token.json",
+        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
+      },
+      "source_files": {
+        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_0_999/metadata.json",
+        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_0_999/SM_Ethereum_0_999.jpg",
+        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_0_999/SM_Ethereum_0_999.glb"
+      },
+      "sha256": {
+        "still_jpg": "bf73c41e455fb3c3ced6b5297e4c15d554bed7a0567b24715f4558eba15521b4",
+        "model_glb": "1df4de0031138db6f3c9ef51ef58a28ce5a94f1504a12e450311145e2b1905bd",
+        "token_json": "cdd56f6f5b61c1e2fc5d761fd664b0e75d4d040bace76c97105ee6169032207f",
+        "viewer_html": "c807a820a6e91fd957d798c65654276d4a089d4accdbe17d7440dc6a3fdd3e6b",
+        "metadata_json": "6cb07946fab5f5ecb2a7707f1bc7f9d01be9761e1576dd849cdb9bacd281082b"
+      },
+      "tier": "premium",
+      "premium_reason": "ethereum_mainnet_upgrade",
+      "premium_events": [
+        {
+          "event_key": "genesis",
+          "event_name": "Genesis",
+          "tier": "premium",
+          "classification": "ethereum_mainnet_origin",
+          "source_url": "https://ethereum.org/en/history/",
+          "description": "Ethereum mainnet launch and the origin block for the chain's permanent history.",
+          "activation_block": 0,
+          "activation_time_utc": "2015-07-30T15:26:13Z",
+          "chunk": {
+            "start_block": 0,
+            "end_block": 999,
+            "base_name": "SM_Ethereum_0_999"
+          }
+        }
+      ],
+      "release_status": "premium_ready",
+      "publish_status": "prepared",
+      "mint_status": "prepared",
+      "commit_message": "nft: publish SM_Ethereum_0_999"
+    },
+    {
       "base_name": "SM_Ethereum_612000_612999",
       "unique_token_key": "SM_Ethereum_612000_612999",
       "dataset": "SM_Ethereum_612000_612999",
