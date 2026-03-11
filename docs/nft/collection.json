@@ -310,6 +310,66 @@
       "commit_message": "nft: publish SM_Ethereum_2675000_2675999"
     },
     {
+      "base_name": "SM_Ethereum_4370000_4370999",
+      "unique_token_key": "SM_Ethereum_4370000_4370999",
+      "dataset": "SM_Ethereum_4370000_4370999",
+      "display_title": "Spiral Manifold #4370",
+      "edition_number": 4370,
+      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_4370000_4370999",
+      "generated_at_utc": "2026-03-11T08:29:22.024531+00:00",
+      "chunk": {
+        "start_block": 4370000,
+        "end_block": 4370999,
+        "count": 1000
+      },
+      "time_range_utc": {
+        "start": "2017-10-16T05:22:11+00:00",
+        "end": "2017-10-16T11:39:43+00:00"
+      },
+      "public_urls": {
+        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_4370000_4370999",
+        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_4370000_4370999/still.jpg",
+        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_4370000_4370999/model.glb",
+        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_4370000_4370999/index.html",
+        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_4370000_4370999/token.json",
+        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
+      },
+      "source_files": {
+        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_4370000_4370999/metadata.json",
+        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_4370000_4370999/SM_Ethereum_4370000_4370999.jpg",
+        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_4370000_4370999/SM_Ethereum_4370000_4370999.glb"
+      },
+      "sha256": {
+        "still_jpg": "a569857e89246b562b5bc13012a97b462e4298f0c66cbf7dab2004296d8d8bf0",
+        "model_glb": "63baf406ef9fe9c017090d726f603b3f87dfb03193d4bc9083bd2f29d916ed52",
+        "token_json": "47aed476f37587b702a48e29ef42b4c8366de7ecac76aeeff4ed26e4f7fac7c9",
+        "viewer_html": "e3bd05cb40b7a35941d378371d4272cb9d09564c6e0ed361250f266eb62cb647",
+        "metadata_json": "e023d077cc15990a79c9988d6b4272485d4178d7f02706ff1634ae1fdb94e1fa"
+      },
+      "tier": "premium",
+      "premium_reason": "ethereum_mainnet_upgrade",
+      "premium_events": [
+        {
+          "event_key": "byzantium",
+          "event_name": "Byzantium",
+          "tier": "premium",
+          "classification": "ethereum_mainnet_upgrade",
+          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
+          "description": "The first Metropolis phase, adding new opcodes, zk-SNARK support, and reward changes.",
+          "activation_block": 4370000,
+          "chunk": {
+            "start_block": 4370000,
+            "end_block": 4370999,
+            "base_name": "SM_Ethereum_4370000_4370999"
+          }
+        }
+      ],
+      "release_status": "premium_ready",
+      "publish_status": "prepared",
+      "mint_status": "prepared",
+      "commit_message": "nft: publish SM_Ethereum_4370000_4370999"
+    },
+    {
       "base_name": "SM_Ethereum_612000_612999",
       "unique_token_key": "SM_Ethereum_612000_612999",
       "dataset": "SM_Ethereum_612000_612999",
