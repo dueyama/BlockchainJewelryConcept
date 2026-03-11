@@ -15,7 +15,7 @@
       "display_title": "Spiral Manifold #11565",
       "edition_number": 11565,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_11565000_11565999",
-      "generated_at_utc": "2026-03-11T09:43:39.584067+00:00",
+      "generated_at_utc": "2026-03-11T09:53:54.878932+00:00",
       "chunk": {
         "start_block": 11565000,
         "end_block": 11565999,
@@ -42,7 +42,7 @@
         "still_jpg": "b6e666fbcdfe2d1f310af039a6081fd6502e8cd57abb3046014b93f15ac0e45b",
         "model_glb": "ef31e973ac464240d67985a79d42ffbce07b99cfc66fb9cc3a3a99b997e94ed0",
         "token_json": "5b88f4d7c545a3bf73579b6282a57278c8a851df1fcee92bed4c07785b157b0c",
-        "viewer_html": "8fbc11fe819146e561946ef975b5789d82803ac216a3386b3eaf95ccdb15dfc5",
+        "viewer_html": "0735bcf15e5bdb000bcd479660e77cc9286a6c8ade61f600dfc29e948ab1e300",
         "metadata_json": "676057536c47a4931b4b158ee524eb269000b36d6b3f9ba8a67845afd6cd8eba"
       },
       "tier": "standard",
@@ -60,7 +60,7 @@
       "display_title": "Spiral Manifold #13916",
       "edition_number": 13916,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_13916000_13916999",
-      "generated_at_utc": "2026-03-11T09:44:12.851052+00:00",
+      "generated_at_utc": "2026-03-11T09:53:54.971217+00:00",
       "chunk": {
         "start_block": 13916000,
         "end_block": 13916999,
@@ -87,7 +87,7 @@
         "still_jpg": "5b0986d8540eca9c187572a4cd505786d26406c5c388e14893088fbaab997ca7",
         "model_glb": "30d3d9698541c0ace299db38536f7a8681f0fa436cd70c2223faec93eb051a2d",
         "token_json": "8e1c32927e7ede2c13b6fe6a38b2b7dcb8271a1b9ebe3989c79c713d601ebfe5",
-        "viewer_html": "32803fea5f6e32e722b19dce58f45b5bcb94c08ad5434ca044b704a3001daac2",
+        "viewer_html": "f5d8016b75938c60c577900f61665b14e7be0b8eb0c1ad03a2000a00c9407f36",
         "metadata_json": "923a22829c2f513496a6049e27f52d657056db62a81f2d3066164c0385ed5480"
       },
       "tier": "standard",
@@ -105,7 +105,7 @@
       "display_title": "Spiral Manifold #16308",
       "edition_number": 16308,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_16308000_16308999",
-      "generated_at_utc": "2026-03-11T09:44:46.906064+00:00",
+      "generated_at_utc": "2026-03-11T09:53:55.069469+00:00",
       "chunk": {
         "start_block": 16308000,
         "end_block": 16308999,
@@ -132,7 +132,7 @@
         "still_jpg": "8ca25af9c9df90e76e964246d5c45ceaf074ef0df51ea245f36282aef0d3e978",
         "model_glb": "2f9bdd39aa173ee3bb64a965e4852e9df63006855429e2cbf9aabfa0b3324b3b",
         "token_json": "30d185f18a69072cc1cbb0d1b3b7211df14ac439c40f0507e01b25f9b054b0c9",
-        "viewer_html": "4a5ad6abbc589eacbf09d82ef6918ae45d9f7d6caa651ba7e6e3d545f7320755",
+        "viewer_html": "737599ea6ea114ed3a8188de344b1eb819caf35d793c5b294664c10ed758c62b",
         "metadata_json": "f0d8fb8852f4e1c54c5910c3310271d352bb546f69f35bd33e905c3a545fd6a3"
       },
       "tier": "standard",
@@ -150,7 +150,7 @@
       "display_title": "Spiral Manifold #18908",
       "edition_number": 18908,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_18908000_18908999",
-      "generated_at_utc": "2026-03-11T09:45:19.862567+00:00",
+      "generated_at_utc": "2026-03-11T09:53:55.166963+00:00",
       "chunk": {
         "start_block": 18908000,
         "end_block": 18908999,
@@ -177,7 +177,7 @@
         "still_jpg": "e67b28aa1dbe8a0217b33bbaefb3f59f633550bda40a0f51aab4c7a40f6b5801",
         "model_glb": "f9436bb880eb5d41c0f59199dcb2f2483dfcfec9deae246b480a5463ad6247aa",
         "token_json": "97113c692fdc6b7958c53eb065857fa18078fbf12dbc72d30ee295396543d223",
-        "viewer_html": "18e61fa3642c6ac5f708a09e3ea88e8665b9cf9b3e82ce23b97f14755be930d4",
+        "viewer_html": "7fb7bf732baa238f2daf5ab30eefbfd10e82601a81c516c6d018c6b6de7947ab",
         "metadata_json": "f252a6c2713a1c0ff0ed9a513723384de96982e209f89e10cc0d6f2b11b27ae0"
       },
       "tier": "standard",
@@ -195,7 +195,7 @@
       "display_title": "Spiral Manifold #21525",
       "edition_number": 21525,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_21525000_21525999",
-      "generated_at_utc": "2026-03-11T09:45:53.059270+00:00",
+      "generated_at_utc": "2026-03-11T09:53:55.261418+00:00",
       "chunk": {
         "start_block": 21525000,
         "end_block": 21525999,
@@ -222,7 +222,7 @@
         "still_jpg": "ff32f8f6f8372941289f3e2119a5cc058ce294fa27907900e5142b8e4ff5d230",
         "model_glb": "b2e1d9688169af6e82849ec86da2396b4e95ecfce366a28097be4b0254e47c2b",
         "token_json": "c6f943d2cffe16fae65c6b33e232a178b0323eb4d1c303fc698a8f2339593bdf",
-        "viewer_html": "e7c9b37e94533d71c8d69ff1e6c9a40729b072a3ae6f928123055fb6d61ca995",
+        "viewer_html": "398db267e7e0ffdf675f8e04cdacc876ca301d54fd493fa4fd0fbcf08e145707",
         "metadata_json": "a9e179e6a46239ff7aedbb683b1c2b850e25ccae433635199390547527f37f0b"
       },
       "tier": "standard",
@@ -240,7 +240,7 @@
       "display_title": "Spiral Manifold #24136",
       "edition_number": 24136,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_24136000_24136999",
-      "generated_at_utc": "2026-03-11T09:46:26.643165+00:00",
+      "generated_at_utc": "2026-03-11T09:53:55.276904+00:00",
       "chunk": {
         "start_block": 24136000,
         "end_block": 24136999,
@@ -267,7 +267,7 @@
         "still_jpg": "469c03a706d60e06b717453b305dd1a908866f773cc743b5efaca829be42a98d",
         "model_glb": "9278f25d540f4a790c3a6ffda80cfc4fc2a9fbab76cdfbbb078c59e3b335ce37",
         "token_json": "1d1a66276bcd3215cb2a185c1bd00d5f96ad94052a8970727f4b89983a3f3841",
-        "viewer_html": "9dad1aec69551404e23309180cfe3f33ca29cf544e920edc6b4a47df1b7a011e",
+        "viewer_html": "10ca3871cf3b476e1920d9af08ce53f14634cc00f04de830a6af30d6928ec4bc",
         "metadata_json": "70a26e9ca7a334011ad97473618e20c9edad1d9ca4836c56aaadbf9429e8ed0d"
       },
       "tier": "standard",
@@ -285,7 +285,7 @@
       "display_title": "Spiral Manifold #2912",
       "edition_number": 2912,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_2912000_2912999",
-      "generated_at_utc": "2026-03-11T09:41:23.779031+00:00",
+      "generated_at_utc": "2026-03-11T09:53:55.358453+00:00",
       "chunk": {
         "start_block": 2912000,
         "end_block": 2912999,
@@ -312,7 +312,7 @@
         "still_jpg": "17a4f752e8a02e5f9b62c57350c700475d8dee5cb4a40fb36d7dbd46bb8ebdd1",
         "model_glb": "f34cf7e235b23f824419a1ba54e14e8cbc8831eb2238919992caf303039e1852",
         "token_json": "84ef15ec9ae4d8b7f937d3d15329e05daba208f2b7b244b16db8e2b8d144e553",
-        "viewer_html": "f6f2e2253794c8bcac749588164f18349092e913288225882e653a983f371a4a",
+        "viewer_html": "ecccf406108870e6014aab399bb7a1ed2ac9fab3c237598006eb7ddb6e9869e7",
         "metadata_json": "07928389d76f7073dad5eef4c63900faa7fac038f5e79271eaa12dceda98b0d1"
       },
       "tier": "standard",
@@ -330,7 +330,7 @@
       "display_title": "Spiral Manifold #4832",
       "edition_number": 4832,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_4832000_4832999",
-      "generated_at_utc": "2026-03-11T09:41:57.792941+00:00",
+      "generated_at_utc": "2026-03-11T09:53:55.458238+00:00",
       "chunk": {
         "start_block": 4832000,
         "end_block": 4832999,
@@ -357,7 +357,7 @@
         "still_jpg": "1595b0808aa33969a4434307598a3452583ad19c135df35bfa7d8c4886ee5cab",
         "model_glb": "7807a075b0d1234b34a2ace1363e84de20c0e2aa615d55a52ecc384d554cc74c",
         "token_json": "f9ebc403f6ccf59dfacec2152ff19aa5615d554babeebcb9b45c30335e86a97e",
-        "viewer_html": "e457bffce2c3b6e07d18f234e03a163dee4bc5506b88c8dd8e3fd08f508eb692",
+        "viewer_html": "4c83a4e5133881ee1861a317f43759376497d1768003b1368ac40d80946ae822",
         "metadata_json": "a3ff16dfca677344385aee103bd4148e2e718b8a371e4fcceea5965f7aa72c49"
       },
       "tier": "standard",
@@ -375,7 +375,7 @@
       "display_title": "Spiral Manifold #6988",
       "edition_number": 6988,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_6988000_6988999",
-      "generated_at_utc": "2026-03-11T09:42:30.874649+00:00",
+      "generated_at_utc": "2026-03-11T09:53:55.546362+00:00",
       "chunk": {
         "start_block": 6988000,
         "end_block": 6988999,
@@ -402,7 +402,7 @@
         "still_jpg": "5c1385a843d80618ff6684a706527439b95a77694a50d46ac68d35e4df1fe7c4",
         "model_glb": "17689c2b8b63597e2f07e76a406d3dfd139bbb9bd7eee0513fa6152dfcc45c50",
         "token_json": "2f8b0166ddb68c918709a52c0d1d7df5dbe8458d9e0496054d20153a15832438",
-        "viewer_html": "7c2fee8c3d92696545dcd0fa12619555f0af60f729cccc434f717cac88df7098",
+        "viewer_html": "3078885edba0c7beb83b5d8bc4894a6ffaee159a9c810c034af2c84b860d835b",
         "metadata_json": "1d45ad8742dc65d1186e82d82dd9350ab19e22a0047ba139a9ba93c18e85f667"
       },
       "tier": "standard",
@@ -420,7 +420,7 @@
       "display_title": "Spiral Manifold #778",
       "edition_number": 778,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_778000_778999",
-      "generated_at_utc": "2026-03-11T09:40:49.821053+00:00",
+      "generated_at_utc": "2026-03-11T09:53:55.638353+00:00",
       "chunk": {
         "start_block": 778000,
         "end_block": 778999,
@@ -447,7 +447,7 @@
         "still_jpg": "0ecf0c46dcf8bea846a115d1b79749c7ff56b57561dc0c3f596b88c8f31c18d9",
         "model_glb": "d4be5ac7ea83b3e94e94b1f781e2366a5de620cb494abd3bc4506f792af891ee",
         "token_json": "ffd22026bd27cfa35eb6b02c5962bb57801d99ddbae9814fb58d0244d4f5d53d",
-        "viewer_html": "bc8dcf538950c557ec4213bebef005f5d647b3fdbd2d96a1dbaae282b7105626",
+        "viewer_html": "c8a3eb739833be4faff5a0be28a7fe036e1884b247e60ff5495413b942f2c558",
         "metadata_json": "bdc4952cca7fd7fba9c72c6d0321b769c11bb90e00de1a531ce7eafbacd5500e"
       },
       "tier": "standard",
@@ -465,7 +465,7 @@
       "display_title": "Spiral Manifold #9193",
       "edition_number": 9193,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_9193000_9193999",
-      "generated_at_utc": "2026-03-11T09:43:05.131112+00:00",
+      "generated_at_utc": "2026-03-11T09:53:55.739477+00:00",
       "chunk": {
         "start_block": 9193000,
         "end_block": 9193999,
@@ -492,7 +492,7 @@
         "still_jpg": "6a624b6ad7128d472b32639b1d14e41de07be72d6dd909d9e8796db8b6f4aeb8",
         "model_glb": "3293b8591b2dee95d0e696297e6039280c252cb2fb4ab32890f37ce99aa449a7",
         "token_json": "c5634ea17e36b452846fd6bc3a87c6ac53fd6d308fe5d2f1c1086f21bcaf1bf2",
-        "viewer_html": "0514a0c06ebd345f2ea7d60296c201c7024519c363ba78003e109c1af1278bba",
+        "viewer_html": "6e8cccea283e6ab55d24e8e470be9e626b384835c5abea5c643c557d40c9c2f9",
         "metadata_json": "f75a9ed9ae4a7932faef38f9c3951ff49a8a0d7ffb04479fd3d1b1425fa5c4c9"
       },
       "tier": "standard",

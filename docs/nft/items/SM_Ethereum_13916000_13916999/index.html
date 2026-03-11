@@ -92,7 +92,7 @@
       margin-top: 16px;
     }
 
-    a {
+    .button-link {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -103,6 +103,27 @@
       background: var(--accent);
       text-decoration: none;
       font-weight: 700;
+      border: none;
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .button-link.secondary {
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid var(--line);
+    }
+
+    .hero-links {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+
+    .hero-links .links {
+      margin-top: 0;
     }
 
     model-viewer {
@@ -134,16 +155,25 @@
     }
   </style>
 </head>
-<body>
+  <body>
   <main>
     <section class="hero">
+      <div class="hero-links">
+        <div class="links">
+          <button id="back-button" class="button-link secondary" type="button">Back</button>
+          <a class="button-link secondary" href="../../index.html">Published Works</a>
+        </div>
+        <div class="links">
+          <a class="button-link secondary" href="https://www.bcj-concept.com/">BCJ Concept</a>
+        </div>
+      </div>
       <h1>Spiral Manifold #13916</h1>
       <p class="subhead">Range 13916000-13916999 · SM_Ethereum_13916000_13916999</p>
       <p>Spiral Manifold transforms Ethereum block activity into a reproducible sculptural artifact. This edition covers blocks 13916000-13916999 (1000 blocks) observed between 2021-12-31T23:21:38+00:00 and 2022-01-01T03:03:45+00:00. Render source of truth: .blend.</p>
       <div class="links">
-        <a href="./token.json">token.json</a>
-        <a href="./model.glb">GLB</a>
-        <a href="./still.jpg">JPG</a>
+        <a class="button-link" href="./token.json">token.json</a>
+        <a class="button-link" href="./model.glb">GLB</a>
+        <a class="button-link" href="./still.jpg">JPG</a>
       </div>
     </section>
     <section class="meta">
@@ -180,5 +210,30 @@
       <img src="./still.jpg" alt="Spiral Manifold #13916">
     </section>
   </main>
+  <script>
+    const backButton = document.getElementById("back-button");
+    if (backButton) {
+      backButton.addEventListener("click", () => {
+        const fallbackHref = '../../index.html';
+        const sameOriginReferrer = (() => {
+          try {
+            return document.referrer && new URL(document.referrer).origin === window.location.origin;
+          } catch (_error) {
+            return false;
+          }
+        })();
+        if (sameOriginReferrer || window.history.length > 1) {
+          window.history.back();
+          window.setTimeout(() => {
+            if (!document.hidden) {
+              window.location.href = fallbackHref;
+            }
+          }, 350);
+          return;
+        }
+        window.location.href = fallbackHref;
+      });
+    }
+  </script>
 </body>
 </html>
