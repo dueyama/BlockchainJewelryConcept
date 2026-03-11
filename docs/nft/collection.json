@@ -130,66 +130,6 @@
       "commit_message": "nft: publish SM_Ethereum_1150000_1150999"
     },
     {
-      "base_name": "SM_Ethereum_12244000_12244999",
-      "unique_token_key": "SM_Ethereum_12244000_12244999",
-      "dataset": "SM_Ethereum_12244000_12244999",
-      "display_title": "Spiral Manifold #12244",
-      "edition_number": 12244,
-      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_12244000_12244999",
-      "generated_at_utc": "2026-03-11T08:31:42.676802+00:00",
-      "chunk": {
-        "start_block": 12244000,
-        "end_block": 12244999,
-        "count": 1000
-      },
-      "time_range_utc": {
-        "start": "2021-04-15T10:07:03+00:00",
-        "end": "2021-04-15T13:46:20+00:00"
-      },
-      "public_urls": {
-        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_12244000_12244999",
-        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_12244000_12244999/still.jpg",
-        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_12244000_12244999/model.glb",
-        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_12244000_12244999/index.html",
-        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_12244000_12244999/token.json",
-        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
-      },
-      "source_files": {
-        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_12244000_12244999/metadata.json",
-        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_12244000_12244999/SM_Ethereum_12244000_12244999.jpg",
-        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_12244000_12244999/SM_Ethereum_12244000_12244999.glb"
-      },
-      "sha256": {
-        "still_jpg": "6cf5e6839208e571c3cd1d998d01ea70d4f7f97a3ac07fc626712072a31e453b",
-        "model_glb": "8bf26f1e2850e11d73ceffc236fffc1083ecbdceb3a546a76ea560a2068c3555",
-        "token_json": "b3c259282cb4c1719570b0b392b7513fa6b11bad4ded99be36b38a1c9e97b075",
-        "viewer_html": "8de84eeb6eceddd715b175baa844c7cc9c8f65a8619edc95d9914e9acbb2d0e2",
-        "metadata_json": "54e26aac90aac613fd6344f4e5a1325832c2532c4d17fb39d8bd216cc71c8f0d"
-      },
-      "tier": "premium",
-      "premium_reason": "ethereum_mainnet_upgrade",
-      "premium_events": [
-        {
-          "event_key": "berlin",
-          "event_name": "Berlin",
-          "tier": "premium",
-          "classification": "ethereum_mainnet_upgrade",
-          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
-          "description": "A gas-cost and access-list upgrade aimed at improving contract execution efficiency.",
-          "activation_block": 12244000,
-          "chunk": {
-            "start_block": 12244000,
-            "end_block": 12244999,
-            "base_name": "SM_Ethereum_12244000_12244999"
-          }
-        }
-      ],
-      "release_status": "premium_ready",
-      "publish_status": "prepared",
-      "mint_status": "prepared",
-      "commit_message": "nft: publish SM_Ethereum_12244000_12244999"
-    },
-    {
       "base_name": "SM_Ethereum_1920000_1920999",
       "unique_token_key": "SM_Ethereum_1920000_1920999",
       "dataset": "SM_Ethereum_1920000_1920999",
