@@ -530,61 +530,6 @@
       "commit_message": "nft: publish SM_Ethereum_1920000_1920999"
     },
     {
-      "base_name": "SM_Ethereum_19426000_19426999",
-      "unique_token_key": "SM_Ethereum_19426000_19426999",
-      "dataset": "SM_Ethereum_19426000_19426999",
-      "display_title": "Spiral Manifold #19426",
-      "edition_number": 19426,
-      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_19426000_19426999",
-      "generated_at_utc": "2026-03-11T08:36:30.965118+00:00",
-      "chunk": {
-        "start_block": 19426000,
-        "end_block": 19426999,
-        "count": 1000
-      },
-      "time_range_utc": {
-        "start": "2024-03-13T11:57:47+00:00",
-        "end": "2024-03-13T15:19:35+00:00"
-      },
-      "public_urls": {
-        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_19426000_19426999",
-        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_19426000_19426999/still.jpg",
-        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_19426000_19426999/model.glb",
-        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_19426000_19426999/index.html",
-        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_19426000_19426999/token.json",
-        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
-      },
-      "source_files": {
-        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_19426000_19426999/metadata.json",
-        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_19426000_19426999/SM_Ethereum_19426000_19426999.jpg",
-        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_19426000_19426999/SM_Ethereum_19426000_19426999.glb"
-      },
-      "sha256": {
-        "still_jpg": "cb74b4127acebd8eda02d385eaf76a47b47225739e1bbb4e6e02da904a573b1d",
-        "model_glb": "5d0c69ec87bb9c2393267e445b4b3498b589c9dd340ebd9fc6f1658f388496b9",
-        "token_json": "0c17ec0f2a1fc76ffad2994deb2cc6c2e683d5cde0b9aa2050e5226271e9a171",
-        "viewer_html": "474f26d5bce9c85fec589f5a4577d24ac0e61a03d8cb147c54fb976843cd6bae",
-        "metadata_json": "dda1c9327e2c9f696ddd991fc0cbfd9f99a7dd316ce71facef227d53ceddb43a"
-      },
-      "tier": "premium",
-      "premium_reason": "ethereum_mainnet_upgrade",
-      "premium_events": [
-        {
-          "event_key": "dencun",
-          "event_name": "Dencun",
-          "tier": "premium",
-          "classification": "ethereum_mainnet_upgrade",
-          "source_url": "https://eips.ethereum.org/EIPS/eip-7569",
-          "description": "The Cancun and Deneb upgrade that introduced blob transactions for rollup scaling.",
-          "activation_time_utc": "2024-03-13T13:55:35Z"
-        }
-      ],
-      "release_status": "premium_ready",
-      "publish_status": "prepared",
-      "mint_status": "prepared",
-      "commit_message": "nft: publish SM_Ethereum_19426000_19426999"
-    },
-    {
       "base_name": "SM_Ethereum_2463000_2463999",
       "unique_token_key": "SM_Ethereum_2463000_2463999",
       "dataset": "SM_Ethereum_2463000_2463999",
