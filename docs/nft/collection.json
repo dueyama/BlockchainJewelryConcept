@@ -99,6 +99,51 @@
       "commit_message": "nft: publish SM_Ethereum_4832000_4832999"
     },
     {
+      "base_name": "SM_Ethereum_6988000_6988999",
+      "unique_token_key": "SM_Ethereum_6988000_6988999",
+      "dataset": "SM_Ethereum_6988000_6988999",
+      "display_title": "Spiral Manifold #6988",
+      "edition_number": 6988,
+      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_6988000_6988999",
+      "generated_at_utc": "2026-03-11T09:42:30.874649+00:00",
+      "chunk": {
+        "start_block": 6988000,
+        "end_block": 6988999,
+        "count": 1000
+      },
+      "time_range_utc": {
+        "start": "2018-12-31T21:35:50+00:00",
+        "end": "2019-01-01T01:33:43+00:00"
+      },
+      "public_urls": {
+        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_6988000_6988999",
+        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_6988000_6988999/still.jpg",
+        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_6988000_6988999/model.glb",
+        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_6988000_6988999/index.html",
+        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_6988000_6988999/token.json",
+        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
+      },
+      "source_files": {
+        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_6988000_6988999/metadata.json",
+        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_6988000_6988999/SM_Ethereum_6988000_6988999.jpg",
+        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_6988000_6988999/SM_Ethereum_6988000_6988999.glb"
+      },
+      "sha256": {
+        "still_jpg": "5c1385a843d80618ff6684a706527439b95a77694a50d46ac68d35e4df1fe7c4",
+        "model_glb": "17689c2b8b63597e2f07e76a406d3dfd139bbb9bd7eee0513fa6152dfcc45c50",
+        "token_json": "2f8b0166ddb68c918709a52c0d1d7df5dbe8458d9e0496054d20153a15832438",
+        "viewer_html": "7c2fee8c3d92696545dcd0fa12619555f0af60f729cccc434f717cac88df7098",
+        "metadata_json": "1d45ad8742dc65d1186e82d82dd9350ab19e22a0047ba139a9ba93c18e85f667"
+      },
+      "tier": "standard",
+      "premium_reason": null,
+      "premium_events": [],
+      "release_status": "prepared",
+      "publish_status": "prepared",
+      "mint_status": "prepared",
+      "commit_message": "nft: publish SM_Ethereum_6988000_6988999"
+    },
+    {
       "base_name": "SM_Ethereum_778000_778999",
       "unique_token_key": "SM_Ethereum_778000_778999",
       "dataset": "SM_Ethereum_778000_778999",
