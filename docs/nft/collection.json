@@ -585,6 +585,61 @@
       "commit_message": "nft: publish SM_Ethereum_19426000_19426999"
     },
     {
+      "base_name": "SM_Ethereum_22431000_22431999",
+      "unique_token_key": "SM_Ethereum_22431000_22431999",
+      "dataset": "SM_Ethereum_22431000_22431999",
+      "display_title": "Spiral Manifold #22431",
+      "edition_number": 22431,
+      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_22431000_22431999",
+      "generated_at_utc": "2026-03-11T08:37:04.485708+00:00",
+      "chunk": {
+        "start_block": 22431000,
+        "end_block": 22431999,
+        "count": 1000
+      },
+      "time_range_utc": {
+        "start": "2025-05-07T09:47:59+00:00",
+        "end": "2025-05-07T13:17:35+00:00"
+      },
+      "public_urls": {
+        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_22431000_22431999",
+        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_22431000_22431999/still.jpg",
+        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_22431000_22431999/model.glb",
+        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_22431000_22431999/index.html",
+        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_22431000_22431999/token.json",
+        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
+      },
+      "source_files": {
+        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_22431000_22431999/metadata.json",
+        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_22431000_22431999/SM_Ethereum_22431000_22431999.jpg",
+        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_22431000_22431999/SM_Ethereum_22431000_22431999.glb"
+      },
+      "sha256": {
+        "still_jpg": "f9ba0a68d818f34b0d270eb53373bf6116ac7a2951f0fde1bf924f4e97832c45",
+        "model_glb": "1a48c7437d73fed1a6ce72063a7e47b0298d2910781af7a833f885f5f341ca3e",
+        "token_json": "e9fa4adfbb9b73bd7bf60c59f5cd9d4c4952fc3a83068bc8ba0b080ff4994bbd",
+        "viewer_html": "b964c7c7dfa33024cc70944f060d2adeb565591b3fd74b9ce3b79e2cb3acbf21",
+        "metadata_json": "19165f5e20e7a35006638d2bd7f43258d1af7771cca339b81f1588bb4abba104"
+      },
+      "tier": "premium",
+      "premium_reason": "ethereum_mainnet_upgrade",
+      "premium_events": [
+        {
+          "event_key": "pectra",
+          "event_name": "Pectra",
+          "tier": "premium",
+          "classification": "ethereum_mainnet_upgrade",
+          "source_url": "https://blog.ethereum.org/en/2025/04/23/pectra-mainnet",
+          "description": "The Prague and Electra upgrade expanding account abstraction and validator capabilities.",
+          "activation_time_utc": "2025-05-07T10:05:11Z"
+        }
+      ],
+      "release_status": "premium_ready",
+      "publish_status": "prepared",
+      "mint_status": "prepared",
+      "commit_message": "nft: publish SM_Ethereum_22431000_22431999"
+    },
+    {
       "base_name": "SM_Ethereum_2463000_2463999",
       "unique_token_key": "SM_Ethereum_2463000_2463999",
       "dataset": "SM_Ethereum_2463000_2463999",
