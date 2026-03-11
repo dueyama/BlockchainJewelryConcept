@@ -93,6 +93,49 @@
       margin-top: 18px;
     }
 
+    .works-toolbar {
+      display: grid;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .works-meta {
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .works-controls {
+      display: grid;
+      grid-template-columns: minmax(220px, 1.5fr) repeat(2, minmax(140px, 0.7fr));
+      gap: 12px;
+    }
+
+    .control {
+      display: grid;
+      gap: 8px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .control input,
+    .control select {
+      min-height: 46px;
+      width: 100%;
+      padding: 0 14px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.84);
+      color: var(--ink);
+      font: inherit;
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 600;
+    }
+
     .work-card {
       overflow: hidden;
       border-radius: 20px;
@@ -168,16 +211,23 @@
       min-height: 42px;
       padding: 0 14px;
       border-radius: 999px;
+      border: none;
       background: var(--accent);
       color: white;
       text-decoration: none;
       font-weight: 700;
+      font: inherit;
+      cursor: pointer;
     }
 
     .button-link.secondary {
       background: rgba(255, 255, 255, 0.84);
       color: var(--ink);
       border: 1px solid var(--line);
+    }
+
+    .button-link[hidden] {
+      display: none;
     }
 
     .empty {
@@ -191,6 +241,12 @@
     code {
       font-family: "SFMono-Regular", "Menlo", monospace;
       font-size: 0.95em;
+    }
+
+    @media (max-width: 860px) {
+      .works-controls {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -236,8 +292,37 @@
       <p>
         Each card below links to the public viewer and NFT metadata for one unique 1000-block range.
       </p>
+      <div class="works-toolbar">
+        <div id="works-meta" class="works-meta">Loading published works...</div>
+        <div class="works-controls">
+          <label class="control">
+            Search
+            <input id="works-search" type="search" placeholder="base name, block range, event">
+          </label>
+          <label class="control">
+            Tier
+            <select id="works-tier">
+              <option value="all">All Works</option>
+              <option value="premium">Premium Only</option>
+              <option value="standard">Standard Only</option>
+            </select>
+          </label>
+          <label class="control">
+            Sort
+            <select id="works-sort">
+              <option value="latest">Latest Published</option>
+              <option value="oldest">Oldest Published</option>
+              <option value="block_desc">Highest Block Range</option>
+              <option value="block_asc">Lowest Block Range</option>
+            </select>
+          </label>
+        </div>
+      </div>
       <div id="works-empty" class="empty">Loading published works...</div>
       <div id="works-grid" class="works-grid" hidden></div>
+      <div class="actions" style="margin-top: 16px;">
+        <button id="works-more" class="button-link secondary" hidden type="button">Load More</button>
+      </div>
     </section>
 
     <section class="card-grid">
@@ -256,6 +341,12 @@
     </section>
   </main>
   <script>
+    const worksState = {
+      allItems: [],
+      visibleCount: 0,
+      pageSize: 9,
+    };
+
     function formatUtcRange(item) {
       const timeRange = item.time_range_utc || {};
       if (!timeRange.start || !timeRange.end) {
@@ -272,25 +363,80 @@
       return names.join(" / ");
     }
 
+    function searchText(item) {
+      const chunk = item.chunk || {};
+      return [
+        item.base_name || "",
+        String(chunk.start_block ?? ""),
+        String(chunk.end_block ?? ""),
+        premiumEventLabel(item),
+        item.release_status || "",
+      ]
+        .join(" ")
+        .toLowerCase();
+    }
+
+    function sortItems(items, mode) {
+      const sorted = [...items];
+      sorted.sort((left, right) => {
+        const leftChunk = left.chunk || {};
+        const rightChunk = right.chunk || {};
+        if (mode === "oldest") {
+          return String(left.generated_at_utc || "").localeCompare(String(right.generated_at_utc || ""));
+        }
+        if (mode === "block_desc") {
+          return Number(rightChunk.start_block || 0) - Number(leftChunk.start_block || 0);
+        }
+        if (mode === "block_asc") {
+          return Number(leftChunk.start_block || 0) - Number(rightChunk.start_block || 0);
+        }
+        return String(right.generated_at_utc || "").localeCompare(String(left.generated_at_utc || ""));
+      });
+      return sorted;
+    }
+
+    function filteredItems() {
+      const searchValue = document.getElementById("works-search").value.trim().toLowerCase();
+      const tierValue = document.getElementById("works-tier").value;
+      const sortValue = document.getElementById("works-sort").value;
+      const filtered = worksState.allItems.filter((item) => {
+        if (tierValue !== "all" && String(item.tier || "standard") !== tierValue) {
+          return false;
+        }
+        if (searchValue && !searchText(item).includes(searchValue)) {
+          return false;
+        }
+        return true;
+      });
+      return sortItems(filtered, sortValue);
+    }
+
     function renderWorks(items) {
       const empty = document.getElementById("works-empty");
       const grid = document.getElementById("works-grid");
+      const meta = document.getElementById("works-meta");
+      const moreButton = document.getElementById("works-more");
       grid.innerHTML = "";
 
       if (!items.length) {
         empty.hidden = false;
         grid.hidden = true;
-        empty.textContent = "No public works have been published yet.";
+        empty.textContent = worksState.allItems.length
+          ? "No works match the current filters."
+          : "No public works have been published yet.";
+        meta.textContent = "0 works shown";
+        moreButton.hidden = true;
         return;
       }
 
-      const sorted = [...items].sort((left, right) => {
-        const leftTime = String(left.generated_at_utc || "");
-        const rightTime = String(right.generated_at_utc || "");
-        return rightTime.localeCompare(leftTime);
-      });
+      const total = items.length;
+      if (!worksState.visibleCount) {
+        worksState.visibleCount = worksState.pageSize;
+      }
+      const visibleItems = items.slice(0, worksState.visibleCount);
+      meta.textContent = `Showing ${visibleItems.length} of ${total} published works`;
 
-      for (const item of sorted) {
+      for (const item of visibleItems) {
         const urls = item.public_urls || {};
         const chunk = item.chunk || {};
         const card = document.createElement("article");
@@ -365,6 +511,14 @@
 
       empty.hidden = true;
       grid.hidden = false;
+      moreButton.hidden = visibleItems.length >= total;
+    }
+
+    function refreshWorks(resetVisible = false) {
+      if (resetVisible) {
+        worksState.visibleCount = worksState.pageSize;
+      }
+      renderWorks(filteredItems());
     }
 
     async function loadWorks() {
@@ -373,14 +527,25 @@
         throw new Error("Could not load /nft/collection.json");
       }
       const payload = await response.json();
-      const items = Array.isArray(payload.items) ? payload.items : [];
-      renderWorks(items);
+      worksState.allItems = Array.isArray(payload.items) ? payload.items : [];
+      worksState.visibleCount = worksState.pageSize;
+      renderWorks(filteredItems());
     }
+
+    document.getElementById("works-search").addEventListener("input", () => refreshWorks(true));
+    document.getElementById("works-tier").addEventListener("change", () => refreshWorks(true));
+    document.getElementById("works-sort").addEventListener("change", () => refreshWorks(true));
+    document.getElementById("works-more").addEventListener("click", () => {
+      worksState.visibleCount += worksState.pageSize;
+      refreshWorks(false);
+    });
 
     loadWorks().catch((error) => {
       const empty = document.getElementById("works-empty");
+      const meta = document.getElementById("works-meta");
       empty.hidden = false;
       empty.textContent = String(error);
+      meta.textContent = "Could not load published works";
     });
   </script>
 </body>
