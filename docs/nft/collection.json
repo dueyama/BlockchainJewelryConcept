@@ -12,8 +12,10 @@
       "base_name": "SM_Ethereum_612000_612999",
       "unique_token_key": "SM_Ethereum_612000_612999",
       "dataset": "SM_Ethereum_612000_612999",
+      "display_title": "Spiral Manifold #612",
+      "edition_number": 612,
       "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_612000_612999",
-      "generated_at_utc": "2026-03-11T05:30:59.967419+00:00",
+      "generated_at_utc": "2026-03-11T08:20:26.314577+00:00",
       "chunk": {
         "start_block": 612000,
         "end_block": 612999,
@@ -39,8 +41,8 @@
       "sha256": {
         "still_jpg": "19f16d907dd49631441cb227698c416b64e93c69d58738e6a0d3f74c909bdfcf",
         "model_glb": "32f06054291ef93691e864a19a9025005fceb703e960d255d186b38f5cb85c7a",
-        "token_json": "f8e9e4e68e98ea7f918c07af842819c4d75c44fcffcbdb2aa5576c70ea0e8ee6",
-        "viewer_html": "29d100c063a51221cb473249acd34ae62078aecebe4c966fea567036a02dee0c",
+        "token_json": "a60d6eff5d039dd190e62e98d0444b11b7ee1a0e8152e5f953e6e56692fb528d",
+        "viewer_html": "6e7d1bc2b1151e4a27ad123c7cd53e97135e229ab6ce182dfe8d5821b4ae549e",
         "metadata_json": "2188f31c4dae27af38454324ef1fe905e802e97e094a3e6f0c135395833d2b76"
       },
       "tier": "standard",

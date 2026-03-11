@@ -259,6 +259,9 @@
         This site is the public publishing surface for Blockchain Jewelry Concept.
         It hosts collection pages, NFT-ready metadata, and artifacts for series including Spiral Manifold.
       </p>
+      <div class="actions" style="margin-top: 16px;">
+        <a class="button-link secondary" href="https://www.bcj-concept.com/" target="_blank" rel="noopener noreferrer">Visit bcj-concept.com</a>
+      </div>
     </section>
 
     <section>
@@ -365,6 +368,10 @@
     }
 
     function editionLabel(item) {
+      const explicitTitle = String(item.display_title || "").trim();
+      if (explicitTitle) {
+        return explicitTitle;
+      }
       const chunk = item.chunk || {};
       const startBlock = Number(chunk.start_block);
       const blockCount = Number(chunk.count || 1000);
@@ -378,6 +385,7 @@
     function searchText(item) {
       const chunk = item.chunk || {};
       return [
+        item.display_title || "",
         item.base_name || "",
         String(chunk.start_block ?? ""),
         String(chunk.end_block ?? ""),
