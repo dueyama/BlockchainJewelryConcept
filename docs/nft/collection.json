@@ -310,66 +310,6 @@
       "commit_message": "nft: publish SM_Ethereum_13773000_13773999"
     },
     {
-      "base_name": "SM_Ethereum_15050000_15050999",
-      "unique_token_key": "SM_Ethereum_15050000_15050999",
-      "dataset": "SM_Ethereum_15050000_15050999",
-      "display_title": "Spiral Manifold #15050",
-      "edition_number": 15050,
-      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_15050000_15050999",
-      "generated_at_utc": "2026-03-11T08:33:23.196780+00:00",
-      "chunk": {
-        "start_block": 15050000,
-        "end_block": 15050999,
-        "count": 1000
-      },
-      "time_range_utc": {
-        "start": "2022-06-30T10:54:04+00:00",
-        "end": "2022-06-30T15:10:38+00:00"
-      },
-      "public_urls": {
-        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_15050000_15050999",
-        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_15050000_15050999/still.jpg",
-        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_15050000_15050999/model.glb",
-        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_15050000_15050999/index.html",
-        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_15050000_15050999/token.json",
-        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
-      },
-      "source_files": {
-        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_15050000_15050999/metadata.json",
-        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_15050000_15050999/SM_Ethereum_15050000_15050999.jpg",
-        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_15050000_15050999/SM_Ethereum_15050000_15050999.glb"
-      },
-      "sha256": {
-        "still_jpg": "d7979bb776b4486997b4a83f2122a4b3b1c9bbd7d3431edb3c73835acc2c9768",
-        "model_glb": "9b66296b2023f977e9c803411b71f913b1e2ce9888915deeff66bdf9d2ffbfa2",
-        "token_json": "b0e819b8fbb2d5702b760053655a4df7bf5da2c6b8e987390f3cf95c3965461d",
-        "viewer_html": "28c9dcabf2ee41a42d496bb708571680b8c0a8f3b84d8eaebca5a1005b94302c",
-        "metadata_json": "99b080a69ecb5e7fdaca9b66ada5daf902ef95e22f60b6cfe2c6424046ad68dd"
-      },
-      "tier": "premium",
-      "premium_reason": "ethereum_mainnet_upgrade",
-      "premium_events": [
-        {
-          "event_key": "gray_glacier",
-          "event_name": "Gray Glacier",
-          "tier": "premium",
-          "classification": "ethereum_mainnet_upgrade",
-          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
-          "description": "The final proof-of-work era difficulty bomb delay ahead of the Merge transition.",
-          "activation_block": 15050000,
-          "chunk": {
-            "start_block": 15050000,
-            "end_block": 15050999,
-            "base_name": "SM_Ethereum_15050000_15050999"
-          }
-        }
-      ],
-      "release_status": "premium_ready",
-      "publish_status": "prepared",
-      "mint_status": "prepared",
-      "commit_message": "nft: publish SM_Ethereum_15050000_15050999"
-    },
-    {
       "base_name": "SM_Ethereum_1920000_1920999",
       "unique_token_key": "SM_Ethereum_1920000_1920999",
       "dataset": "SM_Ethereum_1920000_1920999",
