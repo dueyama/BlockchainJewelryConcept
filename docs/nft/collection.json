@@ -70,6 +70,66 @@
       "commit_message": "nft: publish SM_Ethereum_0_999"
     },
     {
+      "base_name": "SM_Ethereum_1150000_1150999",
+      "unique_token_key": "SM_Ethereum_1150000_1150999",
+      "dataset": "SM_Ethereum_1150000_1150999",
+      "display_title": "Spiral Manifold #1150",
+      "edition_number": 1150,
+      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_1150000_1150999",
+      "generated_at_utc": "2026-03-11T08:27:04.034547+00:00",
+      "chunk": {
+        "start_block": 1150000,
+        "end_block": 1150999,
+        "count": 1000
+      },
+      "time_range_utc": {
+        "start": "2016-03-14T18:49:53+00:00",
+        "end": "2016-03-14T23:22:10+00:00"
+      },
+      "public_urls": {
+        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1150000_1150999",
+        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1150000_1150999/still.jpg",
+        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1150000_1150999/model.glb",
+        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1150000_1150999/index.html",
+        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1150000_1150999/token.json",
+        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
+      },
+      "source_files": {
+        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_1150000_1150999/metadata.json",
+        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_1150000_1150999/SM_Ethereum_1150000_1150999.jpg",
+        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_1150000_1150999/SM_Ethereum_1150000_1150999.glb"
+      },
+      "sha256": {
+        "still_jpg": "9b5c60d638aabf6afbbbb68241c13681671cbd07b087cb2b71ba87e5e15100ec",
+        "model_glb": "4d237b7433436b6cf73be023c17561234ea352b1d356d04949c18f7d885869ea",
+        "token_json": "8cc30798355e0b8dc798433f2b014478f2a6145abf767f6b4e9721b69d6e5467",
+        "viewer_html": "2b54ecc33943f63fef4ad44e8157afb81902a5267e28184e780db12795a3bafa",
+        "metadata_json": "e6f55e8e8c58312c46b7cceb5dd793fcfda194a3803caaa4d6caf4bfaf641901"
+      },
+      "tier": "premium",
+      "premium_reason": "ethereum_mainnet_upgrade",
+      "premium_events": [
+        {
+          "event_key": "homestead",
+          "event_name": "Homestead",
+          "tier": "premium",
+          "classification": "ethereum_mainnet_upgrade",
+          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
+          "description": "Ethereum's first major protocol upgrade, moving the network beyond the Frontier era.",
+          "activation_block": 1150000,
+          "chunk": {
+            "start_block": 1150000,
+            "end_block": 1150999,
+            "base_name": "SM_Ethereum_1150000_1150999"
+          }
+        }
+      ],
+      "release_status": "premium_ready",
+      "publish_status": "prepared",
+      "mint_status": "prepared",
+      "commit_message": "nft: publish SM_Ethereum_1150000_1150999"
+    },
+    {
       "base_name": "SM_Ethereum_612000_612999",
       "unique_token_key": "SM_Ethereum_612000_612999",
       "dataset": "SM_Ethereum_612000_612999",
