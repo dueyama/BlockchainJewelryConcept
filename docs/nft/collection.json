@@ -415,61 +415,6 @@
       "commit_message": "nft: publish SM_Ethereum_15535000_15535999"
     },
     {
-      "base_name": "SM_Ethereum_17034000_17034999",
-      "unique_token_key": "SM_Ethereum_17034000_17034999",
-      "dataset": "SM_Ethereum_17034000_17034999",
-      "display_title": "Spiral Manifold #17034",
-      "edition_number": 17034,
-      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_17034000_17034999",
-      "generated_at_utc": "2026-03-11T08:35:58.167009+00:00",
-      "chunk": {
-        "start_block": 17034000,
-        "end_block": 17034999,
-        "count": 1000
-      },
-      "time_range_utc": {
-        "start": "2023-04-12T19:30:59+00:00",
-        "end": "2023-04-12T22:58:35+00:00"
-      },
-      "public_urls": {
-        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_17034000_17034999",
-        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_17034000_17034999/still.jpg",
-        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_17034000_17034999/model.glb",
-        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_17034000_17034999/index.html",
-        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_17034000_17034999/token.json",
-        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
-      },
-      "source_files": {
-        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_17034000_17034999/metadata.json",
-        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_17034000_17034999/SM_Ethereum_17034000_17034999.jpg",
-        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_17034000_17034999/SM_Ethereum_17034000_17034999.glb"
-      },
-      "sha256": {
-        "still_jpg": "73591b25ab010fd65d30e582c950938fd93c60f36d69eb6c3598b5a58781bda1",
-        "model_glb": "439d991cd2c6d54b2ff338b33a344bfbc168b1ee2d3056416db60c6756383143",
-        "token_json": "10e75286695a2db4f8e377082291f0bdd481d74a79a6b249bee99dd73bee4954",
-        "viewer_html": "250f0157210dfe53e7855abc77ce58c7e6d75483dd79940c2f6195276106898f",
-        "metadata_json": "dc8f303c09702987598b517715b3bef543152f4c13de3d6a24e7aa22a066f3ea"
-      },
-      "tier": "premium",
-      "premium_reason": "ethereum_mainnet_upgrade",
-      "premium_events": [
-        {
-          "event_key": "shapella",
-          "event_name": "Shapella",
-          "tier": "premium",
-          "classification": "ethereum_mainnet_upgrade",
-          "source_url": "https://blog.ethereum.org/en/2023/03/28/shapella-mainnet-announcement",
-          "description": "The Shanghai and Capella upgrade that enabled validator withdrawals.",
-          "activation_time_utc": "2023-04-12T22:27:35Z"
-        }
-      ],
-      "release_status": "premium_ready",
-      "publish_status": "prepared",
-      "mint_status": "prepared",
-      "commit_message": "nft: publish SM_Ethereum_17034000_17034999"
-    },
-    {
       "base_name": "SM_Ethereum_1920000_1920999",
       "unique_token_key": "SM_Ethereum_1920000_1920999",
       "dataset": "SM_Ethereum_1920000_1920999",
