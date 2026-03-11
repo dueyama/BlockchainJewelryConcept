@@ -473,66 +473,6 @@
       "publish_status": "prepared",
       "mint_status": "prepared",
       "commit_message": "nft: publish SM_Ethereum_7280000_7280999"
-    },
-    {
-      "base_name": "SM_Ethereum_9069000_9069999",
-      "unique_token_key": "SM_Ethereum_9069000_9069999",
-      "dataset": "SM_Ethereum_9069000_9069999",
-      "display_title": "Spiral Manifold #9069",
-      "edition_number": 9069,
-      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_9069000_9069999",
-      "generated_at_utc": "2026-03-11T08:30:32.750824+00:00",
-      "chunk": {
-        "start_block": 9069000,
-        "end_block": 9069999,
-        "count": 1000
-      },
-      "time_range_utc": {
-        "start": "2019-12-08T00:25:09+00:00",
-        "end": "2019-12-08T04:49:26+00:00"
-      },
-      "public_urls": {
-        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_9069000_9069999",
-        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_9069000_9069999/still.jpg",
-        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_9069000_9069999/model.glb",
-        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_9069000_9069999/index.html",
-        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_9069000_9069999/token.json",
-        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
-      },
-      "source_files": {
-        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_9069000_9069999/metadata.json",
-        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_9069000_9069999/SM_Ethereum_9069000_9069999.jpg",
-        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_9069000_9069999/SM_Ethereum_9069000_9069999.glb"
-      },
-      "sha256": {
-        "still_jpg": "b874edc0c3f7beed2d2a9603065f84c4255c7e015be801b9d1572f8a732b329f",
-        "model_glb": "18e341a3ecf144fbd7a349b7e266f4761d307ae183f342590c9894e19df54d2b",
-        "token_json": "b2229c85bfba6b3f885fb9e34702c1ed24d94b5ccca5d812790f99bc902b6c74",
-        "viewer_html": "2291d7f806ad3085fd06285927c0582b191f2c9edf22d7c28f1c9d99d52f8ce3",
-        "metadata_json": "702ebcea7ee40725f7c964fdf8e53ecabb2d3ad30421fc4e13799113acd78700"
-      },
-      "tier": "premium",
-      "premium_reason": "ethereum_mainnet_upgrade",
-      "premium_events": [
-        {
-          "event_key": "istanbul",
-          "event_name": "Istanbul",
-          "tier": "premium",
-          "classification": "ethereum_mainnet_upgrade",
-          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
-          "description": "An upgrade focused on gas pricing, interoperability, and better layer-2 friendliness.",
-          "activation_block": 9069000,
-          "chunk": {
-            "start_block": 9069000,
-            "end_block": 9069999,
-            "base_name": "SM_Ethereum_9069000_9069999"
-          }
-        }
-      ],
-      "release_status": "premium_ready",
-      "publish_status": "prepared",
-      "mint_status": "prepared",
-      "commit_message": "nft: publish SM_Ethereum_9069000_9069999"
     }
   ]
 }
