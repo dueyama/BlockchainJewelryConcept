@@ -130,6 +130,66 @@
       "commit_message": "nft: publish SM_Ethereum_1150000_1150999"
     },
     {
+      "base_name": "SM_Ethereum_1920000_1920999",
+      "unique_token_key": "SM_Ethereum_1920000_1920999",
+      "dataset": "SM_Ethereum_1920000_1920999",
+      "display_title": "Spiral Manifold #1920",
+      "edition_number": 1920,
+      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_1920000_1920999",
+      "generated_at_utc": "2026-03-11T08:27:38.885362+00:00",
+      "chunk": {
+        "start_block": 1920000,
+        "end_block": 1920999,
+        "count": 1000
+      },
+      "time_range_utc": {
+        "start": "2016-07-20T13:20:40+00:00",
+        "end": "2016-07-20T17:54:27+00:00"
+      },
+      "public_urls": {
+        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1920000_1920999",
+        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1920000_1920999/still.jpg",
+        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1920000_1920999/model.glb",
+        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1920000_1920999/index.html",
+        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_1920000_1920999/token.json",
+        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
+      },
+      "source_files": {
+        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_1920000_1920999/metadata.json",
+        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_1920000_1920999/SM_Ethereum_1920000_1920999.jpg",
+        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_1920000_1920999/SM_Ethereum_1920000_1920999.glb"
+      },
+      "sha256": {
+        "still_jpg": "50a30a1a81d9d42da0d00b02a0b4fa23f6ed19d31f3b64ac2ccbb09b1dfc7289",
+        "model_glb": "000c4e467199e04764ae19acc4d3d146df4463a7365ffe9f0bb2de3b4098cf76",
+        "token_json": "7132693fc994c81cbd6b588b394cebefecd2721ec677c96be8ac60be66247f44",
+        "viewer_html": "780f552f3bcd461ce1c34ff8f00f080c11f580086608e4d562d770aa03f88d1e",
+        "metadata_json": "e6a83fa98ce8118cdc837ac0314d60844d942bb803993c7a00841b3df623e610"
+      },
+      "tier": "premium",
+      "premium_reason": "ethereum_mainnet_upgrade",
+      "premium_events": [
+        {
+          "event_key": "dao_fork",
+          "event_name": "DAO Fork",
+          "tier": "premium",
+          "classification": "ethereum_mainnet_upgrade",
+          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
+          "description": "The contested 2016 hard fork that returned funds after the DAO exploit.",
+          "activation_block": 1920000,
+          "chunk": {
+            "start_block": 1920000,
+            "end_block": 1920999,
+            "base_name": "SM_Ethereum_1920000_1920999"
+          }
+        }
+      ],
+      "release_status": "premium_ready",
+      "publish_status": "prepared",
+      "mint_status": "prepared",
+      "commit_message": "nft: publish SM_Ethereum_1920000_1920999"
+    },
+    {
       "base_name": "SM_Ethereum_612000_612999",
       "unique_token_key": "SM_Ethereum_612000_612999",
       "dataset": "SM_Ethereum_612000_612999",
