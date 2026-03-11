@@ -190,66 +190,6 @@
       "commit_message": "nft: publish SM_Ethereum_1920000_1920999"
     },
     {
-      "base_name": "SM_Ethereum_2463000_2463999",
-      "unique_token_key": "SM_Ethereum_2463000_2463999",
-      "dataset": "SM_Ethereum_2463000_2463999",
-      "display_title": "Spiral Manifold #2463",
-      "edition_number": 2463,
-      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_2463000_2463999",
-      "generated_at_utc": "2026-03-11T08:28:12.651293+00:00",
-      "chunk": {
-        "start_block": 2463000,
-        "end_block": 2463999,
-        "count": 1000
-      },
-      "time_range_utc": {
-        "start": "2016-10-18T13:19:31+00:00",
-        "end": "2016-10-18T17:09:49+00:00"
-      },
-      "public_urls": {
-        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2463000_2463999",
-        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2463000_2463999/still.jpg",
-        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2463000_2463999/model.glb",
-        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2463000_2463999/index.html",
-        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2463000_2463999/token.json",
-        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
-      },
-      "source_files": {
-        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_2463000_2463999/metadata.json",
-        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_2463000_2463999/SM_Ethereum_2463000_2463999.jpg",
-        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_2463000_2463999/SM_Ethereum_2463000_2463999.glb"
-      },
-      "sha256": {
-        "still_jpg": "e4293f5096af928977ac7ed0715032d42aa160d252be77df22c0d6f5e0c4176c",
-        "model_glb": "e1cbf7218352b8c8c0a3cc294a0fc280d719599f65b74a9ad4dd5494d7e4c776",
-        "token_json": "3add1e1e262de953a5cd0b595a9abed8b259b25b3c6e902b576b07b031bde481",
-        "viewer_html": "c507b2440d5ab790f9fa1ca2222b9f024424d127da53eb4d38a4aef269149f8f",
-        "metadata_json": "bdf797a86d660418dd46541000a2cfe2bf8b8c4e82bc60ed34a5cd502d1b0edf"
-      },
-      "tier": "premium",
-      "premium_reason": "ethereum_mainnet_upgrade",
-      "premium_events": [
-        {
-          "event_key": "tangerine_whistle",
-          "event_name": "Tangerine Whistle",
-          "tier": "premium",
-          "classification": "ethereum_mainnet_upgrade",
-          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
-          "description": "A gas repricing hard fork introduced to mitigate denial-of-service attack vectors.",
-          "activation_block": 2463000,
-          "chunk": {
-            "start_block": 2463000,
-            "end_block": 2463999,
-            "base_name": "SM_Ethereum_2463000_2463999"
-          }
-        }
-      ],
-      "release_status": "premium_ready",
-      "publish_status": "prepared",
-      "mint_status": "prepared",
-      "commit_message": "nft: publish SM_Ethereum_2463000_2463999"
-    },
-    {
       "base_name": "SM_Ethereum_612000_612999",
       "unique_token_key": "SM_Ethereum_612000_612999",
       "dataset": "SM_Ethereum_612000_612999",
