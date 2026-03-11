@@ -250,6 +250,66 @@
       "commit_message": "nft: publish SM_Ethereum_12965000_12965999"
     },
     {
+      "base_name": "SM_Ethereum_13773000_13773999",
+      "unique_token_key": "SM_Ethereum_13773000_13773999",
+      "dataset": "SM_Ethereum_13773000_13773999",
+      "display_title": "Spiral Manifold #13773",
+      "edition_number": 13773,
+      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_13773000_13773999",
+      "generated_at_utc": "2026-03-11T08:32:50.338855+00:00",
+      "chunk": {
+        "start_block": 13773000,
+        "end_block": 13773999,
+        "count": 1000
+      },
+      "time_range_utc": {
+        "start": "2021-12-09T19:55:23+00:00",
+        "end": "2021-12-09T23:43:21+00:00"
+      },
+      "public_urls": {
+        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_13773000_13773999",
+        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_13773000_13773999/still.jpg",
+        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_13773000_13773999/model.glb",
+        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_13773000_13773999/index.html",
+        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_13773000_13773999/token.json",
+        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
+      },
+      "source_files": {
+        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_13773000_13773999/metadata.json",
+        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_13773000_13773999/SM_Ethereum_13773000_13773999.jpg",
+        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_13773000_13773999/SM_Ethereum_13773000_13773999.glb"
+      },
+      "sha256": {
+        "still_jpg": "3bff69ae995631e63993247ab77b2d65b3088edada6d02a0a7c38bd8ab063ef2",
+        "model_glb": "6a08731870999053a7f632506383204a5e930287cf8d325c7ac755ccafe201ac",
+        "token_json": "fed411e39d3d7a909ed7d890acded64fb478b7a0c77cf82dc4f3cb208d6952e7",
+        "viewer_html": "5f3b9fccb28d9e889bdb9838a158e352903aed33452038d4a61328e5d42da2c0",
+        "metadata_json": "d71ecf5712967dd9f405b8e91b8cbd30db79c1bd4983af20dae40d9e4f79ef12"
+      },
+      "tier": "premium",
+      "premium_reason": "ethereum_mainnet_upgrade",
+      "premium_events": [
+        {
+          "event_key": "arrow_glacier",
+          "event_name": "Arrow Glacier",
+          "tier": "premium",
+          "classification": "ethereum_mainnet_upgrade",
+          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
+          "description": "A difficulty bomb delay shipped to preserve mainnet usability before the Merge.",
+          "activation_block": 13773000,
+          "chunk": {
+            "start_block": 13773000,
+            "end_block": 13773999,
+            "base_name": "SM_Ethereum_13773000_13773999"
+          }
+        }
+      ],
+      "release_status": "premium_ready",
+      "publish_status": "prepared",
+      "mint_status": "prepared",
+      "commit_message": "nft: publish SM_Ethereum_13773000_13773999"
+    },
+    {
       "base_name": "SM_Ethereum_1920000_1920999",
       "unique_token_key": "SM_Ethereum_1920000_1920999",
       "dataset": "SM_Ethereum_1920000_1920999",
