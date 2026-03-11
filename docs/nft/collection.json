@@ -413,66 +413,6 @@
       "publish_status": "prepared",
       "mint_status": "prepared",
       "commit_message": "nft: publish SM_Ethereum_612000_612999"
-    },
-    {
-      "base_name": "SM_Ethereum_7280000_7280999",
-      "unique_token_key": "SM_Ethereum_7280000_7280999",
-      "dataset": "SM_Ethereum_7280000_7280999",
-      "display_title": "Spiral Manifold #7280",
-      "edition_number": 7280,
-      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_7280000_7280999",
-      "generated_at_utc": "2026-03-11T08:29:58.665699+00:00",
-      "chunk": {
-        "start_block": 7280000,
-        "end_block": 7280999,
-        "count": 1000
-      },
-      "time_range_utc": {
-        "start": "2019-02-28T19:52:04+00:00",
-        "end": "2019-03-01T00:37:24+00:00"
-      },
-      "public_urls": {
-        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_7280000_7280999",
-        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_7280000_7280999/still.jpg",
-        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_7280000_7280999/model.glb",
-        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_7280000_7280999/index.html",
-        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_7280000_7280999/token.json",
-        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
-      },
-      "source_files": {
-        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_7280000_7280999/metadata.json",
-        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_7280000_7280999/SM_Ethereum_7280000_7280999.jpg",
-        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_7280000_7280999/SM_Ethereum_7280000_7280999.glb"
-      },
-      "sha256": {
-        "still_jpg": "f87bb82e30c928f4b5103bf8c760b1b37d1ea29425d46087c65556ab6c90cb0f",
-        "model_glb": "06e8b1c6f59203168ed5ad482d621e2206060cc1bce3439788eb4265b0b99373",
-        "token_json": "18855ee282ecb879b8c58e4b6e3ade15633a5ab01d66f71d33f8557173ecf41d",
-        "viewer_html": "fc3b43c914227c61f494cb465dd813d98bbcc7e53a7f0cebe576684c903acb6e",
-        "metadata_json": "270d2d569c2273373c195f84cb2944c75a79a21e4606a9dca9d3b9829a5ca7d6"
-      },
-      "tier": "premium",
-      "premium_reason": "ethereum_mainnet_upgrade",
-      "premium_events": [
-        {
-          "event_key": "constantinople_petersburg",
-          "event_name": "Constantinople / Petersburg",
-          "tier": "premium",
-          "classification": "ethereum_mainnet_upgrade",
-          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
-          "description": "A combined upgrade that optimized gas costs and deferred the difficulty bomb after a late security adjustment.",
-          "activation_block": 7280000,
-          "chunk": {
-            "start_block": 7280000,
-            "end_block": 7280999,
-            "base_name": "SM_Ethereum_7280000_7280999"
-          }
-        }
-      ],
-      "release_status": "premium_ready",
-      "publish_status": "prepared",
-      "mint_status": "prepared",
-      "commit_message": "nft: publish SM_Ethereum_7280000_7280999"
     }
   ]
 }
