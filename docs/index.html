@@ -364,6 +364,17 @@
       return names.join(" / ");
     }
 
+    function editionLabel(item) {
+      const chunk = item.chunk || {};
+      const startBlock = Number(chunk.start_block);
+      const blockCount = Number(chunk.count || 1000);
+      if (!Number.isFinite(startBlock) || !Number.isFinite(blockCount) || blockCount <= 0) {
+        return worksState.collectionName || "Spiral Manifold";
+      }
+      const edition = Math.floor(startBlock / blockCount);
+      return `${worksState.collectionName || "Spiral Manifold"} #${edition}`;
+    }
+
     function searchText(item) {
       const chunk = item.chunk || {};
       return [
@@ -455,7 +466,7 @@
         body.className = "work-body";
 
         const title = document.createElement("h3");
-        title.textContent = worksState.collectionName || "Spiral Manifold";
+        title.textContent = editionLabel(item);
         body.appendChild(title);
 
         const tags = document.createElement("div");
