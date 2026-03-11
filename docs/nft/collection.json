@@ -250,6 +250,66 @@
       "commit_message": "nft: publish SM_Ethereum_2463000_2463999"
     },
     {
+      "base_name": "SM_Ethereum_2675000_2675999",
+      "unique_token_key": "SM_Ethereum_2675000_2675999",
+      "dataset": "SM_Ethereum_2675000_2675999",
+      "display_title": "Spiral Manifold #2675",
+      "edition_number": 2675,
+      "output_root": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_2675000_2675999",
+      "generated_at_utc": "2026-03-11T08:28:46.076141+00:00",
+      "chunk": {
+        "start_block": 2675000,
+        "end_block": 2675999,
+        "count": 1000
+      },
+      "time_range_utc": {
+        "start": "2016-11-22T16:15:44+00:00",
+        "end": "2016-11-22T20:23:24+00:00"
+      },
+      "public_urls": {
+        "item_root": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2675000_2675999",
+        "image": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2675000_2675999/still.jpg",
+        "animation": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2675000_2675999/model.glb",
+        "external": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2675000_2675999/index.html",
+        "token": "https://dueyama.github.io/BlockchainJewelryConcept/nft/items/SM_Ethereum_2675000_2675999/token.json",
+        "collection": "https://dueyama.github.io/BlockchainJewelryConcept/nft/collection.json"
+      },
+      "source_files": {
+        "metadata_json": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_2675000_2675999/metadata.json",
+        "still_jpg": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_2675000_2675999/SM_Ethereum_2675000_2675999.jpg",
+        "model_glb": "/Volumes/Media/Ethereum/Objects/SM_Ethereum_2675000_2675999/SM_Ethereum_2675000_2675999.glb"
+      },
+      "sha256": {
+        "still_jpg": "3a8d93388997eebc5f9d3dbbc9eecfff8f751dad2cdd3f01a0e3256b0464d310",
+        "model_glb": "60690c9b359609e817e256fcabea611d8550bad0a78a273451630c6095611ada",
+        "token_json": "a26dd9ff3f3e08231ee469520beb1f292bbb084368d33299545672e983d325ad",
+        "viewer_html": "6895e82440de275b9d47b33aff79d99ae529abff18e27c8bd7d4a6570536d78d",
+        "metadata_json": "4d693eac77073959494cff5eb2435db017665443835c6ef060eea9e466d264aa"
+      },
+      "tier": "premium",
+      "premium_reason": "ethereum_mainnet_upgrade",
+      "premium_events": [
+        {
+          "event_key": "spurious_dragon",
+          "event_name": "Spurious Dragon",
+          "tier": "premium",
+          "classification": "ethereum_mainnet_upgrade",
+          "source_url": "https://eips.ethereum.org/EIPS/eip-6953",
+          "description": "A follow-up anti-DoS upgrade that repriced opcodes and cleared empty accounts.",
+          "activation_block": 2675000,
+          "chunk": {
+            "start_block": 2675000,
+            "end_block": 2675999,
+            "base_name": "SM_Ethereum_2675000_2675999"
+          }
+        }
+      ],
+      "release_status": "premium_ready",
+      "publish_status": "prepared",
+      "mint_status": "prepared",
+      "commit_message": "nft: publish SM_Ethereum_2675000_2675999"
+    },
+    {
       "base_name": "SM_Ethereum_612000_612999",
       "unique_token_key": "SM_Ethereum_612000_612999",
       "dataset": "SM_Ethereum_612000_612999",
