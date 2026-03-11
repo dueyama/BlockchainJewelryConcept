@@ -85,6 +85,113 @@
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 14px;
     }
+
+    .works-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .work-card {
+      overflow: hidden;
+      border-radius: 20px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.72);
+    }
+
+    .work-card img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
+      background: rgba(255, 255, 255, 0.7);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .work-body {
+      padding: 16px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .work-body h3 {
+      margin: 0;
+      font-size: 20px;
+      font-family: "Iowan Old Style", "Times New Roman", serif;
+    }
+
+    .meta-list {
+      display: grid;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .tag-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      display: inline-flex;
+      min-height: 28px;
+      align-items: center;
+      padding: 0 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.76);
+      color: var(--muted);
+    }
+
+    .tag-premium {
+      color: #946d09;
+      background: rgba(180, 136, 18, 0.12);
+      border-color: rgba(180, 136, 18, 0.2);
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .button-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 0 14px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button-link.secondary {
+      background: rgba(255, 255, 255, 0.84);
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+
+    .empty {
+      padding: 20px;
+      border-radius: 18px;
+      border: 1px dashed var(--line);
+      background: rgba(255, 255, 255, 0.58);
+      color: var(--muted);
+    }
+
+    code {
+      font-family: "SFMono-Regular", "Menlo", monospace;
+      font-size: 0.95em;
+    }
   </style>
 </head>
 <body>
@@ -118,10 +225,19 @@
     <section>
       <h2>Collection Access</h2>
       <p>
-        Spiral Manifold will appear here as works are prepared and published.
+        Published Spiral Manifold works appear below as they are prepared and released.
         The collection manifest lives at
         <a href="./nft/collection.json">/nft/collection.json</a>.
       </p>
+    </section>
+
+    <section>
+      <h2>Published Works</h2>
+      <p>
+        Each card below links to the public viewer and NFT metadata for one unique 1000-block range.
+      </p>
+      <div id="works-empty" class="empty">Loading published works...</div>
+      <div id="works-grid" class="works-grid" hidden></div>
     </section>
 
     <section class="card-grid">
@@ -139,5 +255,133 @@
       </div>
     </section>
   </main>
+  <script>
+    function formatUtcRange(item) {
+      const timeRange = item.time_range_utc || {};
+      if (!timeRange.start || !timeRange.end) {
+        return "";
+      }
+      return `${timeRange.start} to ${timeRange.end}`;
+    }
+
+    function premiumEventLabel(item) {
+      const events = Array.isArray(item.premium_events) ? item.premium_events : [];
+      const names = events
+        .map((event) => String(event?.event_name || "").trim())
+        .filter(Boolean);
+      return names.join(" / ");
+    }
+
+    function renderWorks(items) {
+      const empty = document.getElementById("works-empty");
+      const grid = document.getElementById("works-grid");
+      grid.innerHTML = "";
+
+      if (!items.length) {
+        empty.hidden = false;
+        grid.hidden = true;
+        empty.textContent = "No public works have been published yet.";
+        return;
+      }
+
+      const sorted = [...items].sort((left, right) => {
+        const leftTime = String(left.generated_at_utc || "");
+        const rightTime = String(right.generated_at_utc || "");
+        return rightTime.localeCompare(leftTime);
+      });
+
+      for (const item of sorted) {
+        const urls = item.public_urls || {};
+        const chunk = item.chunk || {};
+        const card = document.createElement("article");
+        card.className = "work-card";
+
+        if (urls.image) {
+          const img = document.createElement("img");
+          img.src = urls.image;
+          img.alt = item.base_name || "Published work";
+          img.loading = "lazy";
+          card.appendChild(img);
+        }
+
+        const body = document.createElement("div");
+        body.className = "work-body";
+
+        const title = document.createElement("h3");
+        title.textContent = `${item.base_name || "Spiral Manifold"} · ${chunk.start_block ?? "?"}-${chunk.end_block ?? "?"}`;
+        body.appendChild(title);
+
+        const tags = document.createElement("div");
+        tags.className = "tag-row";
+        const tier = document.createElement("span");
+        tier.className = `tag ${item.tier === "premium" ? "tag-premium" : ""}`.trim();
+        tier.textContent = item.tier || "standard";
+        tags.appendChild(tier);
+        if (item.release_status) {
+          const release = document.createElement("span");
+          release.className = "tag";
+          release.textContent = item.release_status;
+          tags.appendChild(release);
+        }
+        body.appendChild(tags);
+
+        const meta = document.createElement("div");
+        meta.className = "meta-list";
+        const time = formatUtcRange(item);
+        if (time) {
+          const timeRow = document.createElement("div");
+          timeRow.textContent = time;
+          meta.appendChild(timeRow);
+        }
+        const premiumEvents = premiumEventLabel(item);
+        if (premiumEvents) {
+          const eventRow = document.createElement("div");
+          eventRow.textContent = premiumEvents;
+          meta.appendChild(eventRow);
+        }
+        body.appendChild(meta);
+
+        const actions = document.createElement("div");
+        actions.className = "actions";
+        if (urls.external) {
+          const viewer = document.createElement("a");
+          viewer.className = "button-link";
+          viewer.href = urls.external;
+          viewer.textContent = "Open Viewer";
+          actions.appendChild(viewer);
+        }
+        if (urls.token) {
+          const token = document.createElement("a");
+          token.className = "button-link secondary";
+          token.href = urls.token;
+          token.textContent = "token.json";
+          actions.appendChild(token);
+        }
+        body.appendChild(actions);
+
+        card.appendChild(body);
+        grid.appendChild(card);
+      }
+
+      empty.hidden = true;
+      grid.hidden = false;
+    }
+
+    async function loadWorks() {
+      const response = await fetch("./nft/collection.json", { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error("Could not load /nft/collection.json");
+      }
+      const payload = await response.json();
+      const items = Array.isArray(payload.items) ? payload.items : [];
+      renderWorks(items);
+    }
+
+    loadWorks().catch((error) => {
+      const empty = document.getElementById("works-empty");
+      empty.hidden = false;
+      empty.textContent = String(error);
+    });
+  </script>
 </body>
 </html>
